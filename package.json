@@ -1,0 +1,37 @@
+{
+  "name": "moy-theme",
+  "displayName": "Moy Theme",
+  "description": "An elegant and flavored dark theme with subtle borders",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#070E13",
+    "theme": "dark"
+  },
+  "publisher": "moy",
+  "author": {
+    "name": "Moy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moy/moy-theme.git"
+  },
+  "scripts": {
+    "build": "node --experimental-modules src/index.mjs"
+  },
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Moy Theme",
+        "uiTheme": "vs-dark",
+        "path": "./dist/color-theme.json"
+      }
+    ]
+  }
+}
