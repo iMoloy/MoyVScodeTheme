@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moy/MoyVScodeTheme.git"
+    "url": "https://github.com/iMoloy/MoyVScodeTheme.git"
   },
   "scripts": {
     "build": "node --experimental-modules src/index.mjs"
