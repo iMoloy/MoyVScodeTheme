@@ -18,9 +18,9 @@
     "button.background": "#1d2328",
     "button.foreground": "#5A5F62",
     "button.hoverBackground": "#070E13",
-    "dropdown.background": "#070E13",
-    "dropdown.listBackground": "#1d2328",
-    "dropdown.border": "#070E13",
+    "dropdown.background": "#060b0e",
+    "dropdown.listBackground": "#060c10",
+    "dropdown.border": "#34393d",
     "dropdown.foreground": "#5A5F62",
     "input.background": "#1d2328",
     "input.border": "#1d2328",
@@ -33,10 +33,10 @@
     "inputValidation.infoBorder": "#40B4BB",
     "inputValidation.warningBackground": "#1d2328",
     "inputValidation.warningBorder": "#EF8354",
-    "scrollbar.shadow": "#070E13",
-    "scrollbarSlider.activeBackground": "#ffffff12",
-    "scrollbarSlider.background": "#ffffff12",
+    "scrollbar.shadow": "#060b0e",
+    "scrollbarSlider.background": "#00000000",
     "scrollbarSlider.hoverBackground": "#ffffff12",
+    "scrollbarSlider.activeBackground": "#ffffff0c",
     "badge.foreground": "#070E13",
     "badge.background": "#DDCB0A",
     "progressBar.background": "#1d2328",
@@ -58,6 +58,7 @@
     "activityBar.dropBackground": "#161821bf",
     "activityBar.foreground": "#5A5F62",
     "activityBar.border": "#070E13",
+    "activityBar.activeBorder": "#DDCB0A",
     "activityBarBadge.background": "#DDCB0A",
     "activityBarBadge.foreground": "#070E13",
     "sideBar.background": "#070E13",
@@ -135,10 +136,10 @@
     "diffEditor.insertedTextBorder": "#00000000",
     "diffEditor.removedTextBackground": "#F7005B0c",
     "diffEditor.removedTextBorder": "#00000000",
-    "editorWidget.background": "#060c10",
-    "editorWidget.border": "#1d2328",
-    "editorSuggestWidget.background": "#060c10",
-    "editorSuggestWidget.border": "#1d2328",
+    "editorWidget.background": "#060b0e",
+    "editorWidget.border": "#34393d",
+    "editorSuggestWidget.background": "#060b0e",
+    "editorSuggestWidget.border": "#34393d",
     "editorSuggestWidget.foreground": "#75C3A8",
     "editorSuggestWidget.highlightForeground": "#ffffff",
     "editorSuggestWidget.selectedBackground": "#1d2328",
@@ -429,12 +430,19 @@
       }
     },
     {
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#F7005B"
+      }
+    },
+    {
       "scope": [
-        "entity.name.tag",
+        "support.class.component",
+        "support.class.component.js.jsx",
         "entity.name.tag.js.jsx support.class.component.js.jsx"
       ],
       "settings": {
-        "foreground": "#F7005B"
+        "foreground": "#EF8354"
       }
     },
     {

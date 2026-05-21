@@ -18,9 +18,9 @@ export default colors => ({
     'button.background': colors.background4,
     'button.foreground': colors.dim3,
     'button.hoverBackground': colors.background3,
-    'dropdown.background': colors.background3,
-    'dropdown.listBackground': colors.background4,
-    'dropdown.border': colors.background3,
+    'dropdown.background': colors.background1,
+    'dropdown.listBackground': colors.background2,
+    'dropdown.border': colors.dim1,
     'dropdown.foreground': colors.dim3,
     'input.background': colors.background4,
     'input.border': colors.background4,
@@ -33,10 +33,10 @@ export default colors => ({
     'inputValidation.infoBorder': colors.accent1,
     'inputValidation.warningBackground': colors.background4,
     'inputValidation.warningBorder': colors.accent2,
-    'scrollbar.shadow': colors.background3,
-    'scrollbarSlider.activeBackground': colors.translucent9,
-    'scrollbarSlider.background': colors.translucent9,
+    'scrollbar.shadow': colors.background1,
+    'scrollbarSlider.background': colors.translucent8,
     'scrollbarSlider.hoverBackground': colors.translucent9,
+    'scrollbarSlider.activeBackground': colors.translucent3,
     'badge.foreground': colors.background3,
     'badge.background': colors.base2,
     'progressBar.background': colors.background4,
@@ -58,6 +58,7 @@ export default colors => ({
     'activityBar.dropBackground': colors.translucent,
     'activityBar.foreground': colors.dim3,
     'activityBar.border': colors.background3,
+    'activityBar.activeBorder': colors.base2,
     'activityBarBadge.background': colors.base2,
     'activityBarBadge.foreground': colors.background3,
     'sideBar.background': colors.background3,
@@ -135,10 +136,10 @@ export default colors => ({
     'diffEditor.insertedTextBorder': colors.translucent8,
     'diffEditor.removedTextBackground': colors.translucent6,
     'diffEditor.removedTextBorder': colors.translucent8,
-    'editorWidget.background': colors.background2,
-    'editorWidget.border': colors.background4,
-    'editorSuggestWidget.background': colors.background2,
-    'editorSuggestWidget.border': colors.background4,
+    'editorWidget.background': colors.background1,
+    'editorWidget.border': colors.dim1,
+    'editorSuggestWidget.background': colors.background1,
+    'editorSuggestWidget.border': colors.dim1,
     'editorSuggestWidget.foreground': colors.dim4,
     'editorSuggestWidget.highlightForeground': colors.pure2,
     'editorSuggestWidget.selectedBackground': colors.background4,
@@ -426,12 +427,19 @@ export default colors => ({
       }
     },
     {
+      scope: 'entity.name.tag',
+      settings: {
+        foreground: colors.base1
+      }
+    },
+    {
       scope: [
-        'entity.name.tag',
+        'support.class.component',
+        'support.class.component.js.jsx',
         'entity.name.tag.js.jsx support.class.component.js.jsx'
       ],
       settings: {
-        foreground: colors.base1
+        foreground: colors.accent2
       }
     },
     {
