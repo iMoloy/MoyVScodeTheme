@@ -67,7 +67,7 @@ export default colors => ({
     'sideBarTitle.foreground': colors.dim4,
     'sideBarSectionHeader.background': colors.background4,
     'sideBarSectionHeader.foreground': colors.dim3,
-    'sideBarSectionHeader.border': colors.dim1,
+    'sideBarSectionHeader.border': colors.background4,
     'editorGroup.background': colors.background1,
     'editorGroup.border': colors.dim1,
     'editorGroup.dropBackground': colors.translucent,
