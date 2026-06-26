@@ -2,7 +2,7 @@
   "name": "moy-theme",
   "displayName": "Moy Theme",
   "description": "An elegant and flavored dark theme with subtle borders",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#070E13",
