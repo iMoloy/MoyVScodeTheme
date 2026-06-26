@@ -4,8 +4,9 @@ An elegant and flavored dark theme for VS Code, customized with subtle borders a
 
 ![theme screenshot one](images/preview.png)
 
-## Features (v2.0.0)
+## Features
 
+### v2.x (Contrast & Eye-Comfort Optimizations)
 - **Eye-Comfort Dark Background**: The signature dark blue-slate background (#070E13) provides a deep, calming atmosphere that minimizes eye strain and screen glare.
 - **Crisp Text legibility**: Uses a soft slate-white color (#f1f5f9) instead of pure white to prevent halation and eye fatigue.
 - **Highly Legible Comments**: Brightened comment text (#828a91) ensures you can read document notes comfortably.
@@ -17,6 +18,10 @@ An elegant and flavored dark theme for VS Code, customized with subtle borders a
   - **Parameters**: Solid Warm Orange (`#ff6b22`)
   - **Active Tab/Status**: Solid Golden Yellow (`#ffcc00`)
 - **Clear File Navigation**: Sidebar and navbar file names are styled with a clean light grey (#cbd5e1) for stress-free folder browsing.
+
+### v1.x (Core Design)
+- **Elegant Dark Palette**: A custom-flavored, premium dark color scheme.
+- **Subtle Borders**: Clean and subtle panel borders that improve visual division and section visibility without cluttering your workspace.
 
 ---
 
